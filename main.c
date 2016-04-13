@@ -13,7 +13,7 @@ int main(void)
 
 
     for (alunos = 0; alunos < 3; alunos++){ // loop para preencher as linhas da matriz
-        for (notas = 0; notas < 3; notas++){ //loop para preencher as linhas da matriz
+        for (notas = 0; notas < 3; notas++){ //loop para preencher as colunas da matriz
             printf ("Digite a %d nota do %d aluno: ", notas, alunos); // Recebe as notas fornecidas pelo usuário.
             scanf ("%f", &notasAlunos[notas][alunos]); // Armazena as notas fornecidas pelo usuário na matriz.
             media = media + notasAlunos[notas][alunos]; // Realiza o cálculo da média
